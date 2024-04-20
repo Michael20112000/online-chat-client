@@ -6,7 +6,7 @@ import icon from '../images/emoji.svg'
 import EmojiPicker from 'emoji-picker-react'
 import {Messages} from './Messages'
 
-const socket = io.connect('http://localhost:5000')
+const socket = io.connect('https://online-chat-server-ml72.onrender.com')
 
 export const Chat = () => {
   const [state, setState] = useState([])
